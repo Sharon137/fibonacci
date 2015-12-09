@@ -3,7 +3,7 @@ public class Fibonacci {
  public static long calculate(long i)
  {	
   if (i < 2)
-		return iab;
+		return i;
 
 	long a=0;
 	long b = 1;
