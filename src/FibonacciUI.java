@@ -31,9 +31,10 @@ public class FibonacciUI {
 			} else {
 				try{
 					input = Long.parseLong(inputString);
-				}catch(NumberFormatException nfe ){
-					System.err.println("Invalid Format! Did you enter a integer?");
-					continue;
+					}
+				catch(NumberFormatException nfe ){
+				System.err.println("Invalid Format! Did you enter a integer?");
+				continue;
 				}
 				result = Fibonacci.calculate(input);
 				System.out.println("Fibonacci result is: " + result);

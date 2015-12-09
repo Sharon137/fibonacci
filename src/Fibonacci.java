@@ -1,5 +1,4 @@
-public class Fibonacci
-{
+public class Fibonacci {
 	
 	public static long calculate(long i)
 	{	
